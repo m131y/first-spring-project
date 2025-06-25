@@ -10,9 +10,4 @@ public class HelloController {
         return "hello";     //template 폴더 html 이름
     }
 
-    @GetMapping("/hello")   //주소 경로
-    public String hello1() {
-        return "hello";     //template 폴더 html 이름
-    }
-
 }
